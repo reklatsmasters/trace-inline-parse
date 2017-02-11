@@ -14,5 +14,14 @@
   },
   "dependencies": {
     "ramda-fantasy": "^0.7.0"
-  }
+  },
+  "keywords":[
+    "debug",
+    "trace",
+    "tools",
+    "perfomance",
+    "inline",
+    "inlining",
+    "crankshaft"
+  ]
 }
