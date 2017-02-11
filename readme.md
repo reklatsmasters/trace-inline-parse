@@ -1,4 +1,4 @@
-## trace-inline-parse
+## trace-inline-parse [![Build Status](https://travis-ci.org/ReklatsMasters/trace-inline-parse.svg?branch=master)](https://travis-ci.org/ReklatsMasters/trace-inline-parse) [![npm](https://img.shields.io/npm/v/trace-inline-parse.svg)](https://npmjs.org/package/trace-inline-parse) [![license](https://img.shields.io/npm/l/trace-inline-parse.svg)](https://npmjs.org/package/trace-inline-parse) [![downloads](https://img.shields.io/npm/dm/trace-inline-parse.svg)](https://npmjs.org/package/trace-inline-parse)
 
 Parser of `--trace-inlining` output from [Crankshaft](https://github.com/nodejs/node/blob/24ef1e67757514db9ee1aeded555d4fb336ca817/deps/v8/src/crankshaft/hydrogen.cc#L8121)
 
