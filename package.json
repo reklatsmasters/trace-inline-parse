@@ -1,6 +1,6 @@
 {
   "name": "trace-inline-parse",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Parser of --trace-inlining output",
   "main": "index.js",
   "repository": "reklatsmasters/trace-inline-parse",
@@ -15,7 +15,7 @@
   "dependencies": {
     "ramda-fantasy": "^0.7.0"
   },
-  "keywords":[
+  "keywords": [
     "debug",
     "trace",
     "tools",
