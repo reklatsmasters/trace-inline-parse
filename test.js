@@ -245,3 +245,20 @@ test('skip unparsed line', function (t) {
   t.is(parse(s), void 0)
   t.end()
 })
+
+test('empty caller has 2 or more spaces', function (t) {
+  var s = 'Did not inline require called from  (target not inlineable).'
+
+  t.deepEqual(parse(s), {
+    target: {
+      name: 'require',
+      accessor: false
+    },
+    caller: false,
+    type: 'func',
+    inlined: false,
+    reason: 'target not inlineable'
+  })
+
+  t.end()
+})

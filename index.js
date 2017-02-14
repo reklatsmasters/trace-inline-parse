@@ -8,7 +8,7 @@ var Right = Either.Right
 
 var INLINED = /^Inlined\s(?:(get|set)\s)?([^\s]+)\s(?:(tail)\s)?called from\s(?:(get|set)\s)?([^.\s]+)?/
 var INLINED_NATIVE = /^Inlining\s(api|builtin)(?:\sfunction)?\s([^\s]+)\s<JS Function\s(?:(get|set)\s)?([^(\s]+)?/
-var NOT_INLINED = /^Did not inline\s(?:(get|set)\s)?([^\s]+)\scalled from\s(?:(get|set)\s)?([^\s]+)\s\(([^).]+)\)/
+var NOT_INLINED = /^Did not inline\s(?:(get|set)\s)?([^\s]+)\scalled from\s(?:(get|set)\s)?([^\s]+)?\s\(([^).]+)\)/
 
 var TYPE_JS = 'func'
 var TYPE_NATIVE = 'native'
