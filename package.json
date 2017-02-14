@@ -1,6 +1,6 @@
 {
   "name": "trace-inline-parse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parser of --trace-inlining output",
   "main": "index.js",
   "repository": "reklatsmasters/trace-inline-parse",
